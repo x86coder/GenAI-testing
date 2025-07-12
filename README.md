@@ -1,5 +1,5 @@
 # GenAI-testing
-A few programs tested with the help of Copilot
+A few programs tested with the help of Copilot  
 Each program has the prefix letter **g** e.g. **g**factorial
 
 ## gfactorial(x)
