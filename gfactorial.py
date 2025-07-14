@@ -5,15 +5,15 @@ Date: July 11th, 2025
 '''
 def gfactorial(x):
     if x < 0:
-        raise ValueError("El factorial no esta definido para numeros negativos")
+        raise ValueError("Error: factorial is not defined for negative numbers!")
     else:
         if x == 0:
             return 1
         else:
-            return x * gfactorial(x-1)
+            return x * gfactorial(x-1)      # Copilot fixed a bug here (missing x factor)
 
 if __name__ == '__main__':
-    print("##################### gfactorial v0.1 #####################")
     import sys
-    a = int(sys.argv[1])
-    print("gfactorial(" + str(a) + ") = " + str(gfactorial(a)))
+    param = int(sys.argv[1])
+    print(" > Calculating factorial for " + str(param))
+    print(" > gfactorial(" + str(param) + ") = " + str(gfactorial(param)))
