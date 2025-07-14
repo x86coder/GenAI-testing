@@ -1,3 +1,8 @@
+'''
+Authors: Claude 3.5 Sonnet & Amed Reyes
+License: Corresponding copyright holders
+Date: July 11th, 2025
+'''
 def gfactorial(x):
     if x < 0:
         raise ValueError("El factorial no esta definido para numeros negativos")
