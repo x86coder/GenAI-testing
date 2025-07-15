@@ -10,7 +10,7 @@ Each program has the prefix letter **g** e.g. **g**factorial
 ## gfibonacci(x)
 - Prompt: "Output: file containing the resulting code and using PyTest's framework code style. Input: Can you please generate a few test cases (inside a Test Class) for my function gfibonacci(i) ? Context: fibonacci(i) is a function which returns the i-th member (or member number i) in the Fibonacci's sucession. The first member is 0, and the second is 1 in this case."
 - Copilot model: **GPT-4.1**
-- Status: FAILED 
+- Status: PASSED ✅
 
 ## Installation
 - Install Python3
