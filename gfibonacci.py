@@ -6,7 +6,7 @@ def gfibonacci(i):
 	elif i == 2:
 		return b	# Avoid entering loop
 	else:
-		i = i-1
+		i = i-1		# Sucession offset (adjust)
 		while i > 0:	# Start Loop
 			c = a+b
 			a = b
